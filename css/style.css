@@ -168,7 +168,7 @@ video, #home {
 
 .navbar .navbar-brand {
     margin: 0;
-    font-size: 45px;
+    font-size: 16px;
     line-height: 0px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -205,7 +205,13 @@ video, #home {
     
     .navbar .navbar-brand {
         color: #ffffff;
+        
     }
+
+    .navbar-brand (
+        font-size: 10px;
+        font-weight: 700;
+    )
     
     .navbar.nav-sticky .navbar-brand {
         color: #EF233C;
@@ -239,6 +245,12 @@ video, #home {
     .navbar {
         padding: 15px;
         background: #ffffff !important;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar-toggler-icon {
+        order: 2; /* Change the order of the icon */
+        
     }
     
     .navbar .navbar-brand {
